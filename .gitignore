@@ -15,3 +15,7 @@ venv/
 /tmp/
 *.pcap
 !examples/sample.pcap
+
+# Vercel
+.vercel/
+web/.vercel/

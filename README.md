@@ -1,5 +1,7 @@
 # TCP/IP Packet Analyzer
 
+**▶ Live demo: https://packet-analyzer-playground.vercel.app** — drop a `.pcap` in the browser (or use the bundled sample) and get the protocol breakdown, top talkers, flow table and a per-packet decode (runs on a Vercel Python function; code in [`web/`](web/)).
+
 A network traffic analyzer built from scratch in pure Python — its own `.pcap`
 reader, its own protocol dissectors (no `scapy`, `dpkt`, or `libpcap`), and a
 statistics engine. Point it at a capture and get a tcpdump-style decode plus
